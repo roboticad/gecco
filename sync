@@ -1,0 +1,4 @@
+# VERDE 
+rsync -tav --delete --exclude='.git/' -e 'ssh -p 10622' "/Users/drd/Library/Mobile Documents/com~apple~CloudDocs/p25/gecco" drdj@207.188.144.242:el/p25   --rsync-path='wsl rsync'
+# VERDE INVERSO
+# rsync -tav --delete --exclude='.git/' -e 'ssh -p 10622' drdj@207.188.144.242:el/p25/gecco "/Users/drd/Library/Mobile Documents/com~apple~CloudDocs/p25"  --rsync-path='wsl rsync'
